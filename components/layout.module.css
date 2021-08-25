@@ -1,0 +1,112 @@
+.container {
+    margin: 0 ;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main {
+    margin-bottom: 20px;
+    padding-top: 50px;
+    display: grid;
+    height: var(--global-height);
+    width: 100%;
+    max-width: 1920px;
+    grid-template-columns: 450px 1fr;
+}
+
+/* Screen */
+
+.screen {
+    opacity: 0.9;
+    padding: 20px;
+    flex: 1;
+    background-color: var(--light-pink-opaque);
+    max-height: var(--global-height);
+    display: grid;
+}
+
+.screen .mainTitle {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid var(--light-pink-transparent);
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-family: 'Essays 1743';
+    text-transform: uppercase;
+    text-shadow: 0px 0px 8px var(--light-pink-transparent);
+    letter-spacing: .125em;
+    font-size: 2.2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.screen h1, .screen h2, .screen h3, .screen h4, .screen h5, .screen h6 {
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    font-size: 1.125em;
+    font-weight: lighter;
+    margin-top: 2em;
+}
+
+.screenContent {
+    background-color: var(--dark-blue-transparent);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--light-pink-opaque);
+    font-size: 1.8rem;
+    overflow: auto;
+}
+
+.screenContent ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.screenContent a {
+    font-weight: bold;
+    color: #E29D8F;
+}
+
+.screenContent a:hover {
+    color: #82130C;
+}
+
+.screenContentTitle {
+    letter-spacing: 8px;
+}
+
+/* Phone Styles */
+
+@media screen and (max-width: 1000px) {
+    .main {
+        margin: 0 14px 200px 14px;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: clamp(1.2rem, 8vw - 2rem, 2.3rem);
+    }
+
+    .screen {
+        margin-top: 20px;
+        min-height: 100%;
+        flex-grow: 0;
+    }
+
+    .screenContent {
+        font-size: 1.3rem;
+    }
+
+    .screenContent img {
+        display: block;
+        margin: auto;
+    }
+}

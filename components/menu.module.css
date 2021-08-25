@@ -1,0 +1,77 @@
+/* Left Buttons */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    padding-top: 20px;
+    background-color: var(--light-pink-transparent);
+}
+
+.left img {
+    border-radius: 0;
+    background-color: var(--dark-blue-opaque);
+    margin: 20px;
+    width: 390px;
+    height: auto;
+}
+
+.numberBtnsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 9;
+    padding: 20px;
+    width: 100%;
+}
+
+.numberBtnsWrapper div {
+    margin-bottom: 1px;
+}
+
+
+.numberBtnsWrapper:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.numberBtn {
+    margin: 2px 0;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: .125em;
+    width: 100%;
+    border: none;
+    color: var(--text-pink);
+    background-color: var(--dark-blue-opaque);
+    height: 5rem;
+    text-transform: uppercase;
+}
+
+.wideButton {
+    flex: auto !important;
+    white-space: nowrap;
+}
+
+.numberBtn:hover {
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .numberBtn {
+        position: absolute;
+        z-index: -10;
+        visibility: collapse;
+    }
+
+    .numberBtnsWrapper {
+        justify-content: center;
+        align-items: space-evenly;
+        margin-top: 10px;
+        max-width: none;
+        width: 100%;
+    }
+}
