@@ -12,7 +12,6 @@
 
 .left img {
     border-radius: 0;
-    background-color: var(--dark-blue-opaque);
     margin: 20px;
     width: 390px;
     height: auto;
@@ -32,7 +31,6 @@
     margin-bottom: 1px;
 }
 
-
 .numberBtnsWrapper:nth-child(1) {
     margin-bottom: 10px;
 }
@@ -41,7 +39,7 @@
     margin: 2px 0;
     text-align: center;
     font-size: 2em;
-    letter-spacing: .125em;
+    letter-spacing: 0.125em;
     width: 100%;
     border: none;
     color: var(--text-pink);
@@ -56,22 +54,67 @@
 }
 
 .numberBtn:hover {
-
     cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
-    .numberBtn {
-        position: absolute;
-        z-index: -10;
-        visibility: collapse;
+    .left img {
+        height: 140px;
+        width: auto;
+        z-index: 10;
+        transition: all 0.4s ease;
+    }
+
+    .left {
+        margin: 20px 0 0 0;
+        padding: 0;
     }
 
     .numberBtnsWrapper {
         justify-content: center;
         align-items: space-evenly;
-        margin-top: 10px;
+        padding-top: 0;
         max-width: none;
         width: 100%;
+        transition: all 0.4s ease;
+    }
+
+    .numberBtn {
+        transition: all 0.4s ease;
+    }
+
+    .inactive {
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+    .inactiveButton {
+        font-size: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .left img {
+        height: 100px;
+    }
+
+    .numberBtn {
+        font-size: 1.4em;
+        height: 3rem;
+    }
+
+    .inactiveButton {
+        font-size: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .inactive {
+        padding-bottom: 0;
+        margin: 0;
     }
 }

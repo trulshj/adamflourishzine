@@ -107,6 +107,7 @@
     }
 
     .screen .mainTitle {
+        margin-top: 1em;
         font-size: clamp(2rem, 8vw - 2rem, 2.3rem);
     }
 
