@@ -47,12 +47,21 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Helvetica', 'Arial', sans-serif;
-  background-image: url('../public/background.png');
-  background-position: 0% 90%;
-  background-size: 100vw;
   max-height: 100%;
   height: 100%;
   overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  background-image: url('../public/background.png');
+  background-position: 0% 90%;
+  background-size: 100vw;
 }
 
 a {

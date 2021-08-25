@@ -12,7 +12,8 @@
     margin-bottom: 20px;
     padding-top: 50px;
     display: grid;
-    height: var(--global-height);
+    height: 100%;
+    max-height: var(--global-height);
     width: 100%;
     max-width: 1920px;
     grid-template-columns: 450px 1fr;
