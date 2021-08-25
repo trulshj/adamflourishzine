@@ -22,6 +22,9 @@ export default function Home({ allPostsData }) {
                 look around! If you have any questions, feel free to contact us
                 though <a href='http://twitter.com/adamsk8flourish' target='_blank'>twitter</a>, or <a href='mailto:post@adamflourishzine.xyz'>email</a>
             </p>
+            <h2>
+                <a href='https://forms.gle/s3zxyXc3CVFBKsuUA' target='_blank'>Interest Check</a> is now open!
+            </h2>
             {allPostsData.some((x) => x.showInList === 'true') ? (
                 <h1>recent posts:</h1>
             ) : (
