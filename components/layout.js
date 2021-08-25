@@ -5,7 +5,6 @@ import styles from './layout.module.css';
 
 import Menu from './menu';
 import Footer from './footer';
-import Credit from './credit';
 
 export default function Layout({ children, shortTitle }) {
     return (
@@ -39,7 +38,6 @@ export default function Layout({ children, shortTitle }) {
                     </div>
                 </div>
                 <Footer />
-                <Credit />
             </main>
         </div>
     );
