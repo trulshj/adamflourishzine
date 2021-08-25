@@ -3,7 +3,6 @@ import Image from 'next/image';
 import styles from './menu.module.css';
 
 import logo from '../public/logo.png';
-import rose from '../public/rose.png';
 
 let buttons = [
     { label: 'Home', link: '' },
