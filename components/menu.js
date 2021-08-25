@@ -35,7 +35,7 @@ export default function Menu() {
             />
             <div
                 className={`${styles.numberBtnsWrapper} ${
-                    showMenu ? styles.active : styles.inactive
+                    showMenu ? '' : styles.inactive
                 }`}
             >
                 {buttons.map((b) => (
