@@ -106,8 +106,8 @@
         flex-direction: column;
     }
 
-    .title {
-        font-size: clamp(1.2rem, 8vw - 2rem, 2.3rem);
+    .screen .mainTitle {
+        font-size: clamp(2rem, 8vw - 2rem, 2.3rem);
     }
 
     .screen {
@@ -117,7 +117,8 @@
     }
 
     .screenContent {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        line-height: 1.3em;
     }
 
     .screenContent img {
