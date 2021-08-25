@@ -8,10 +8,10 @@ import rose from '../public/rose.png';
 let buttons = [
     { label: 'Home', link: '' },
     { label: 'About', link: 'about' },
-    { label: 'FAQ', link: '' },
+    { label: 'FAQ', link: 'faq' },
     { label: 'Schedule', link: 'schedule' },
-    { label: 'Guidelines', link: '' },
-    { label: 'Mods', link: '' },
+    { label: 'Guidelines', link: 'guidelines' },
+    { label: 'Mods', link: 'mods' },
 ];
 
 export default function Menu() {
