@@ -14,7 +14,8 @@ Experience:
 
 * Organization, Merch & Finance Mod for [Sk8 Through the Seasons zine](https://twitter.com/sk8TTSzine)
 * Organization & Finance Mod for [ShinDeku Unbroken Bonds zine](https://twitter.com/unbrokenbondszi)
-* Finance Mod for [MiyuaSawa Battery zine](https://twitter.com/miyusawazine) [leftover sales]
+* Finance Mod for [MiyuaSawa Battery zine](https://twitter.com/miyusawazine)
+* Finance & Production Mod for [Dabi Tarot](https://twitter.com/DabiTarot)
 
 ### tulip | he/him | 21 | [@fishnobi](https://twitter.com/fishnobi)
 
@@ -27,3 +28,20 @@ Experience:
 * Graphics Mod for [Animal Crossing Scrapbook zine](https://twitter.com/acscrapbookzine)
 * Art & Formatting Mod for [Sex Positive BNHA zine](https://twitter.com/sexpositivebnha) [nsfw]
 
+### Rayfelle | she/her | 27 | [@rayfelle_exe](https://twitter.com/rayfelle_exe)
+
+Graphics Mod
+
+Experience:
+
+* 5+ years of professional graphic design
+
+### Unrivalling | they/them | 28 | [@unrivalling](https://twitter.com/unrivalling)
+
+Writing Mod (Prose & Poetry)
+
+Experience:
+
+* Writer Mod for [FE3H Fodlan Frontier zine](https://twitter.com/FodlanFrontier)
+* Head and Writer Mod for [FE3H Rose of Gloucester zine](https://twitter.com/Lorenz_Zine) [nsfw]
+* Writer Mod/Contributor for multiple other zines
