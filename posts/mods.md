@@ -45,3 +45,14 @@ Experience:
 * Writer Mod for [FE3H Fodlan Frontier zine](https://twitter.com/FodlanFrontier)
 * Head and Writer Mod for [FE3H Rose of Gloucester zine](https://twitter.com/Lorenz_Zine) [nsfw]
 * Writer Mod/Contributor for multiple other zines
+
+### Sam / Samantha | she/her | 31
+
+Shipping Mod
+
+Experience:
+
+* [MiyaSawa Battery Zine](https://twitter.com/miyusawazine)
+* [Haikyuu Stylish Zine](https://twitter.com/hqstylishzine)
+* [BakuDeku When Stars Align Zine](https://twitter.com/BkDkStarsAlign)
+* [BakuDeku Thicker Than Honey Zine](https://twitter.com/thickhoneyzine)

@@ -8,7 +8,7 @@ showInList: 'true'
 
 **Interest check:** August 25th - September 25th
 
-**Moderator applications:** September 8th - 29th
+**Moderator applications:** September 15th - 29th
 
 **Mod apps results October:** 2nd
 
