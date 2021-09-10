@@ -8,10 +8,6 @@ showInList: 'true'
 
 **Interest check:** August 25th - September 25th
 
-**Moderator applications:** September 15th - 29th
-
-**Mod apps results October:** 2nd
-
 **Contributor applications:** October 17th - November 14th
 
 **Contributor apps results:** November 27th - 30th
