@@ -27,6 +27,7 @@
     background-color: var(--light-pink-opaque);
     max-height: var(--global-height);
     display: grid;
+    -webkit-box-sizing: content-box;
 }
 
 .screen .mainTitle {
@@ -73,7 +74,9 @@
     padding-right: 1rem;
     color: var(--light-pink-opaque);
     font-size: 1.8rem;
-    overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    max-height: inherit;
 }
 
 .screenContent ul {
@@ -112,7 +115,8 @@
 
     .screen {
         margin-top: 20px;
-        min-height: 100%;
+        height: 100vh;
+        max-height: 100%;
         flex-grow: 0;
     }
 

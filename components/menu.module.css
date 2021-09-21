@@ -86,6 +86,7 @@
         max-width: none;
         width: 100%;
         transition: all 0.4s ease;
+        max-height: min-content;
     }
 
     .numberBtn {
