@@ -6,9 +6,9 @@
     justify-content: flex-start;
     align-items: center;
     margin-right: 20px;
-    padding-top: 20px;
     background-color: var(--light-pink-transparent);
     height: var(--global-height);
+    max-width: 100%;
 }
 
 .left:nth-child(1) {
@@ -17,10 +17,14 @@
 
 .left img {
     border-radius: 0;
-    margin: 20px;
     width: auto;
-    height: 390px;
+    height: auto;
     object-fit: contain;
+}
+
+.left .logo {
+    padding-left: 20px !important;
+    padding-right: 20px !important
 }
 
 .numberBtnsWrapper {
@@ -29,7 +33,7 @@
     align-items: center;
     justify-content: flex-start;
     z-index: 9;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     width: 100%;
     flex-grow: 1;
 }
@@ -104,6 +108,10 @@
         height: 0;
         padding: 0;
         margin: 0;
+    }
+
+    .left .logo {
+        padding: 0 !important;
     }
 }
 
