@@ -38,7 +38,7 @@ Experience:
 
 ### Unrivalling | they/them | 28 | [@unrivalling](https://twitter.com/unrivalling)
 
-Writing Mod (Prose & Poetry)
+Writing Mod
 
 Experience:
 
