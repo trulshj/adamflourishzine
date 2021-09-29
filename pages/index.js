@@ -20,11 +20,21 @@ export default function Home({ allPostsData }) {
             <p>
                 Welcome to the home page of Flourish, an Adam Anthology. Have a
                 look around! If you have any questions, feel free to contact us
-                though <a href='http://twitter.com/adamsk8flourish' target='_blank'>twitter</a>, or <a href='mailto:post@adamflourishzine.xyz'>email</a>
+                through{' '}
+                <a href='http://twitter.com/adamsk8flourish' target='_blank'>
+                    twitter
+                </a>
+                ,{' '}
+                <a href='https://flourish-adam-zine.tumblr.com' target='_blank'>
+                    tumblr
+                </a>
+                ,{' '}
+                <a href='https://instagram.com/adamflourishzine' target='_blank'>
+                    instagram
+                </a>
+                , or <a href='mailto:post@adamflourishzine.xyz'>email</a>
             </p>
-            <h2>
-                <a href='https://forms.gle/s3zxyXc3CVFBKsuUA' target='_blank'>Interest Check</a> is now open!
-            </h2>
+            <h2>Interest Check is now closed,<br /> thanks for all the answers!</h2>
             {allPostsData.some((x) => x.showInList === 'true') ? (
                 <h1>recent posts:</h1>
             ) : (
