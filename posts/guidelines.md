@@ -4,11 +4,9 @@ date: '2021-10-10'
 showInList: 'true'
 ---
 
-# Guidelines
-
 ### Contributor Guidelines
 
-#### Expectations for Final Piece(s)
+##### Expectations for Final Piece(s)
 
 All work has to be created for this project. All works have to be finished in time and submitted in proper formats. All work must be SFW and relate to the theme of Ainosuke’s growth and healing, featuring him in a post-canon setting. Contributors can also take inspiration from the accompanying concept of [“tomorrow is a new day”](/about).
 
@@ -57,7 +55,7 @@ Merch artist:
 * Must be Adam-centric (i.e. no romantic ship content)
 
 
-#### Application Guidelines
+##### Application Guidelines
 
 Flourish is a project we have planned and considered with a set of moods, vibes, and concepts. There is a strong visual vision for this project, and therefore, we will be looking for certain traits when judging applicants. Color and lightning will be noted especially, as those are factors that strongly contribute to conveying moods and vibes of a piece. Interested applicants can apply to multiple positions. Please note that NSFW works are accepted during the application process.
 
