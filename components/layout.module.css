@@ -3,9 +3,12 @@
     height: 100vh;
     display: grid;
     place-items: center;
-    width: 100%;
+    width: 65%;
     padding-left: 20px;
     padding-right: 20px;
+    margin: auto;
+    grid-template-rows: 100px 1fr;
+    padding-top: 60px;
 }
 
 .main {
@@ -15,52 +18,54 @@
     max-height: var(--global-height);
     width: 100%;
     max-width: 1920px;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 300px 1fr;
 }
 
 /* Screen */
 
-.screen {
+.screenContent {
     opacity: 0.9;
     padding: 20px;
     flex: 1;
-    background-color: var(--light-pink-opaque);
     max-height: var(--global-height);
     display: grid;
     -webkit-box-sizing: content-box;
 }
 
-.screen .mainTitle {
+.mainTitle {
+    --glow-pink: var(--light-pink-opaque);
     width: 100%;
     text-align: center;
-    border-bottom: 2px solid var(--light-pink-transparent);
     padding-top: 0;
     padding-bottom: 10px;
-    font-family: 'Essays 1743';
-    text-transform: uppercase;
-    text-shadow: 0px 0px 8px var(--light-pink-transparent);
+    font-family: 'Rocket Clouds';
+    color: #e29d8f;
+    text-shadow: 0px 0px 32px var(--glow-pink), 0px 0px 8px var(--glow-pink),
+        0px 0px 8px var(--glow-pink);
     letter-spacing: 0.125em;
-    font-size: 2.2em;
+    font-size: 5.5em;
     font-weight: normal;
     margin: 0;
-    animation: glow 1s ease-in-out alternate infinite;
+    animation: glow 2s ease-in-out alternate infinite;
 }
 
 @keyframes glow {
     from {
-        text-shadow: 0px 0px 8px var(--light-pink-transparent);
+        text-shadow: 0px 0px 32px var(--glow-pink), 0px 0px 32px var(--glow-pink),
+            0px 0px 8px var(--glow-pink);
     }
     to {
-        text-shadow: 0px 0px 16px var(--light-pink-transparent);
+        text-shadow: 0px 0px 128px var(--glow-pink),
+            0px 0px 128px var(--glow-pink), 0px 0px 8px var(--glow-pink);
     }
 }
 
-.screen h1,
-.screen h2,
-.screen h3,
-.screen h4,
-.screen h5,
-.screen h6 {
+.screenContent h1,
+.screenContent h2,
+.screenContent h3,
+.screenContent h4,
+.screenContent h5,
+.screenContent h6 {
     text-transform: uppercase;
     letter-spacing: 0.125em;
     font-size: 1.125em;
@@ -69,6 +74,7 @@
 }
 
 .screenContent {
+    box-shadow: 0 0 32px 24px var(--light-pink-opaque);
     background-color: var(--dark-blue-transparent);
     padding-left: 1rem;
     padding-right: 1rem;
@@ -78,6 +84,17 @@
     -webkit-overflow-scrolling: touch;
     max-height: inherit;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.screenContent::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .screenContent {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .screenContent ul {
     margin-left: 0;
@@ -95,6 +112,18 @@
 
 .screenContentTitle {
     letter-spacing: 8px;
+}
+
+.leftBush {
+    position: fixed;
+    bottom: -10px;
+    left: 0px;
+}
+
+.rightBush {
+    position: fixed;
+    bottom: -10px;
+    right: 0px;
 }
 
 /* Phone Styles */

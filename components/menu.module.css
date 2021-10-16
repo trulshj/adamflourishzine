@@ -7,6 +7,8 @@
     align-items: center;
     margin-right: 20px;
     background-color: var(--light-pink-transparent);
+    box-shadow: 0 0 32px 24px var(--light-pink-opaque);
+    border-radius: 8px;
     height: var(--global-height);
     max-width: 100%;
 }
@@ -49,13 +51,13 @@
 .numberBtn {
     margin: 2px 0;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.125em;
     width: 100%;
     border: none;
-    flex-grow: 1;
+    padding: .7em;
     color: var(--text-pink);
-    background-color: var(--dark-blue-opaque);
+    background-color: var(--dark-blue-transparent);
     text-transform: uppercase;
     flex-shrink: 1;
 }

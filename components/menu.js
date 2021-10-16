@@ -27,7 +27,7 @@ export default function Menu() {
         >
             <Image
                 className={styles.logo}
-                src={smallScreen ? rose : logo}
+                src={smallScreen || true ? rose : logo}
                 onClick={() => {
                     setShowMenu(!showMenu);
                     console.log(showMenu);

@@ -3,6 +3,10 @@ import styles from './layout.module.css';
 
 import Menu from './menu';
 import Footer from './footer';
+import Image from 'next/image';
+
+import leftBush from '../public/bush-left.png';
+import rightBush from '../public/bush-right.png';
 
 export default function Layout({ children, shortTitle }) {
     return (
@@ -27,16 +31,22 @@ export default function Layout({ children, shortTitle }) {
                 />
             </Head>
 
+            <h1 id='mainTitle' className={styles.mainTitle}>
+                Flourish
+            </h1>
             <main className={styles.main}>
                 <Menu />
-                <div className={styles.screen}>
-                    <div className={styles.screenContent}>
-                        <h1 id="mainTitle" className={styles.mainTitle}>Flourish</h1>
-                        {children}
-                    </div>
-                </div>
+                <div className={styles.screenContent}>{children}</div>
                 <Footer />
             </main>
+            <div className={styles.bushes}>
+                <div className={styles.leftBush}>
+                    <Image src={leftBush} width={'500'} height={'500'} />
+                </div>
+                <div className={styles.rightBush}>
+                    <Image src={rightBush} width={'500'} height={'500'} />
+                </div>
+            </div>
         </div>
     );
 }
