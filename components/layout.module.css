@@ -11,6 +11,17 @@
     padding-top: 60px;
 }
 
+.lmao {
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+    color: black;
+    font-size: 5.5em;
+    font-family: 'Rocket Clouds';
+}
+
 .main {
     margin-bottom: 20px;
     display: grid;

@@ -15,7 +15,8 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-    return (
+    return (<>
+        <div className={layoutStyles.lmao}>Flourish</div>
         <Layout shortTitle='FLOURISH: An Adam Anthology'>
             <p>
                 Welcome to the home page of Flourish, an Adam Anthology. Have a
@@ -57,6 +58,6 @@ export default function Home({ allPostsData }) {
                     )
                 )}
             </ul>
-        </Layout>
+        </Layout></>
     );
 }
