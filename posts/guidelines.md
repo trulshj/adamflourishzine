@@ -1,6 +1,6 @@
 ---
 title: 'Guidelines'
-date: '2021-10-10'
+date: '2021-10-18'
 showInList: 'true'
 ---
 
@@ -56,6 +56,10 @@ Merch artist:
 
 
 ##### Application Guidelines
+
+**[Writer Applications](https://forms.gle/hKMH4DFyyVbncwZQ9)** (fic/comic/meta)
+
+**[Artist Applications](https://forms.gle/ezyUoh6w5W7hdyuw9)** (comic/spot art/merch)
 
 Flourish is a project we have planned and considered with a set of moods, vibes, and concepts. There is a strong visual vision for this project, and therefore, we will be looking for certain traits when judging applicants. Color and lightning will be noted especially, as those are factors that strongly contribute to conveying moods and vibes of a piece. Interested applicants can apply to multiple positions. Please note that NSFW works are accepted during the application process.
 
