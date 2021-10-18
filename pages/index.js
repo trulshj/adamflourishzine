@@ -16,7 +16,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
     return (<>
-        <div className={layoutStyles.lmao}>Flourish</div>
+        <div className={layoutStyles.lmao}><div>Flourish</div><div>tomorrow is a new day</div></div>
         <Layout shortTitle='FLOURISH: An Adam Anthology'>
             <p>
                 Welcome to the home page of Flourish, an Adam Anthology. Have a
