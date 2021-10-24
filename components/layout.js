@@ -13,8 +13,17 @@ export default function Layout({ children }) {
     let M = useMediaPredicate('(max-width: 1000px)');
     let S = useMediaPredicate('(max-width: 800px)');
     let XS = useMediaPredicate('(max-width: 600px)');
-    let L = useMediaPredicate('(min-width: 1001px)');
-    let bushSize = XS ? '200' : S ? '300' : M ? '400' : L ? '500' : '200';
+
+    let bushSize;
+    if (XS) {
+        bushSize = '400';
+    } else if (S) {
+        bushSize = '300';
+    } else if (M) {
+        bushSize = '200';
+    } else {
+        bushSize = '500';
+    }
 
     return (
         <div className={styles.container}>
