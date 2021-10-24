@@ -5,8 +5,8 @@ import Menu from './menu';
 import Footer from './footer';
 import Image from 'next/image';
 
-import leftBush from '@/public/bush-left.png';
-import rightBush from '@/public/bush-right.png';
+import leftbush from '@/public/bush-left.png';
+import rightbush from '@/public/bush-right.png';
 import { useMediaPredicate } from 'react-media-hook';
 
 export default function Layout({ children, shortTitle }) {
@@ -47,10 +47,10 @@ export default function Layout({ children, shortTitle }) {
             </main>
             <div className={styles.bushes}>
                 <div className={styles.leftBush}>
-                    <Image src={leftBush} width={bushSize} height={bushSize} />
+                    <Image src={leftbush} width={bushSize} height={bushSize} />
                 </div>
                 <div className={styles.rightBush}>
-                    <Image src={rightBush} width={bushSize} height={bushSize} />
+                    <Image src={rightbush} width={bushSize} height={bushSize} />
                 </div>
             </div>
         </div>
