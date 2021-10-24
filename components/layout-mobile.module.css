@@ -1,0 +1,228 @@
+.container {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    grid-template-rows: 100px 1fr;
+    padding-top: 60px;
+}
+
+.rofl {
+    height: 200vh;
+    width: 100vw;
+    background-image: url('../public/background-long.png');
+    background-size: 200vh 400vh;
+    background-position: top;
+}
+
+.lmao {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+.lmao :nth-child(1) {
+    font-size: 7rem;
+    font-family: 'Rocket Clouds';
+    --glow-pink: var(--light-pink-opaque);
+    color: #e29d8f;
+    text-shadow: 0px 0px 32px var(--glow-pink), 0px 0px 8px var(--glow-pink),
+        0px 0px 8px var(--glow-pink);
+    animation: glow 3s ease-in-out alternate infinite;
+}
+
+.lmao :nth-child(2) {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.6rem;
+    position: relative;
+    left: 7rem;
+    color: var(--logo-text-pink);
+}
+
+.main {
+    margin-bottom: 20px;
+    display: grid;
+    height: 100%;
+    max-height: var(--global-height);
+    width: 100%;
+    max-width: 1920px;
+    grid-template-columns: 300px 1fr;
+}
+
+/* Screen */
+
+.screenContent {
+    opacity: 0.9;
+    padding: 20px;
+    border: 20px solid var(--light-pink-opaque);
+    flex: 1;
+    max-height: var(--global-height);
+    display: grid;
+    -webkit-box-sizing: content-box;
+}
+
+.mainTitle {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-family: 'Rocket Clouds';
+    color: var(--light-pink-opaque);
+    letter-spacing: 0.125em;
+    font-size: 5.5em;
+    font-weight: normal;
+    margin: 0;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 32px var(--glow-pink), 0px 0px 32px var(--glow-pink),
+            0px 0px 8px var(--glow-pink);
+    }
+    to {
+        text-shadow: 0px 0px 128px var(--glow-pink),
+            0px 0px 128px var(--glow-pink), 0px 0px 8px var(--glow-pink);
+    }
+}
+
+.screenContent h1,
+.screenContent h2,
+.screenContent h3,
+.screenContent h4,
+.screenContent h5,
+.screenContent h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 1.125em;
+    font-weight: lighter;
+    margin-top: 2em;
+}
+
+.screenContent {
+    background-color: var(--dark-blue-transparent);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--light-pink-opaque);
+    font-size: 1.8rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    max-height: inherit;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.screenContent::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.screenContent {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.screenContent ul {
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.screenContent a {
+    font-weight: bold;
+    color: #e29d8f;
+}
+
+.screenContent a:hover {
+    color: #82130c;
+}
+
+.screenContentTitle {
+    letter-spacing: 8px;
+}
+
+
+.leftBush, .rightBush {
+    position: fixed;
+    bottom: -10px;
+    z-index: 9;
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+}
+
+
+.leftBush {
+    left: 0px;
+}
+
+.rightBush {
+    right: 0px;
+}
+
+/* Phone Styles */
+
+@media screen and (max-width: 1000px) {
+    .main {
+        margin: 0 14px 200px 14px;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .mainTitle {
+        font-size: clamp(3.4rem, 9.2vw + 1.2rem, 7rem);
+        max-width: 90vw;
+    }
+
+    .container {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .screenContent {
+        font-size: 1.1rem;
+        line-height: 1.3em;
+        margin-bottom: 20px;
+        border-top: 0;
+    }
+
+    .screenContent img {
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+
+    .lmao :nth-child(1) {
+        font-size: clamp(3.4rem, 9.2vw + 1.2rem, 7rem);
+        max-width: 90vw;
+    }
+
+    .lmao :nth-child(2) {
+        font-size: clamp(1.5rem, 2.8vw + 0.8rem, 2.6rem);
+        max-width: 90vw;
+        left: clamp(2rem, 12.8vw - 1rem, 7rem);
+    }
+
+    .screenContent h1,
+    .screenContent h2,
+    .screenContent h3,
+    .screenContent h4,
+    .screenContent h5,
+    .screenContent h6 {
+        margin-top: 1.3em;
+    }
+
+    .screenContent article div :nth-child(1) {
+        margin-top: 0;
+    }
+}
