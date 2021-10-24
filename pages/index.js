@@ -49,10 +49,26 @@ export default function Home({ allPostsData }) {
                         </a>
                         , or <a href='mailto:post@adamflourishzine.xyz'>email</a>
                     </p>
-                    <h2>
-                        Interest Check is now closed,
-                        <br /> thanks for all the answers!
-                    </h2>
+                    <ul>
+                        <li>
+                            {' '}
+                            <a
+                                href='https://forms.gle/hKMH4DFyyVbncwZQ9'
+                                target='_blank'
+                            >
+                                Writer Applications
+                            </a>{' '}
+                        </li>{' '}
+                        <li>
+                            {' '}
+                            <a
+                                href='https://forms.gle/ezyUoh6w5W7hdyuw9'
+                                target='_blank'
+                            >
+                                Artist Applications
+                            </a>{' '}
+                        </li>{' '}
+                    </ul>
                     {allPostsData.some((x) => x.showInList === 'true') ? (
                         <h1>recent posts:</h1>
                     ) : (

@@ -188,6 +188,7 @@
         font-size: 1.1rem;
         line-height: 1.3em;
         margin-bottom: 20px;
+        border-top: 0;
     }
 
     .screenContent img {
