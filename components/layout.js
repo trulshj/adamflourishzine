@@ -9,11 +9,12 @@ import leftbush from '@/public/bush-left.png';
 import rightbush from '@/public/bush-right.png';
 import { useMediaPredicate } from 'react-media-hook';
 
-export default function Layout({ children, shortTitle }) {
+export default function Layout({ children }) {
     let M = useMediaPredicate('(max-width: 1000px)');
     let S = useMediaPredicate('(max-width: 800px)');
     let XS = useMediaPredicate('(max-width: 600px)');
-    let bushSize = XS ? '200' : S ? '300' : M ? '400' : '500';
+    let L = useMediaPredicate('(min-width: 1001px)');
+    let bushSize = XS ? '200' : S ? '300' : M ? '400' : L ? '500' : '200';
 
     return (
         <div className={styles.container}>
