@@ -49,13 +49,13 @@
 .numberBtn {
     margin: 2px 0;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.125em;
     width: 100%;
     border: none;
-    flex-grow: 1;
+    padding: .7em;
     color: var(--text-pink);
-    background-color: var(--dark-blue-opaque);
+    background-color: var(--dark-blue-transparent);
     text-transform: uppercase;
     flex-shrink: 1;
 }

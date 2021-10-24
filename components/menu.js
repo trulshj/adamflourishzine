@@ -5,8 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './menu.module.css';
 
-import logo from '../public/logo.png';
-import rose from '../public/rose.png';
+import logo from '@/public/logo.png';
+import rose from '@/public/rose.png';
 
 let buttons = [
     { id: '1', label: 'Home', link: '' },
@@ -27,7 +27,7 @@ export default function Menu() {
         >
             <Image
                 className={styles.logo}
-                src={smallScreen ? rose : logo}
+                src={smallScreen || true ? rose : logo}
                 onClick={() => {
                     setShowMenu(!showMenu);
                     console.log(showMenu);
