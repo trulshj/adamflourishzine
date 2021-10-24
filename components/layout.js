@@ -7,8 +7,14 @@ import Image from 'next/image';
 
 import leftBush from '../public/bush-left.png';
 import rightBush from '../public/bush-right.png';
+import { useMediaPredicate } from 'react-media-hook';
 
 export default function Layout({ children, shortTitle }) {
+    let M = useMediaPredicate('(max-width: 1000px)');
+    let S = useMediaPredicate('(max-width: 800px)');
+    let XS = useMediaPredicate('(max-width: 600px)');
+    let bushSize = XS ? '200' : S ? '300' : M ? '400' : '500';
+
     return (
         <div className={styles.container}>
             <Head>
@@ -41,10 +47,10 @@ export default function Layout({ children, shortTitle }) {
             </main>
             <div className={styles.bushes}>
                 <div className={styles.leftBush}>
-                    <Image src={leftBush} width={'500'} height={'500'} />
+                    <Image src={leftBush} width={bushSize} height={bushSize} />
                 </div>
                 <div className={styles.rightBush}>
-                    <Image src={rightBush} width={'500'} height={'500'} />
+                    <Image src={rightBush} width={bushSize} height={bushSize} />
                 </div>
             </div>
         </div>

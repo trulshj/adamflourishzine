@@ -7,8 +7,6 @@
     align-items: center;
     margin-right: 20px;
     background-color: var(--light-pink-transparent);
-    box-shadow: 0 0 32px 24px var(--light-pink-opaque);
-    border-radius: 8px;
     height: var(--global-height);
     max-width: 100%;
 }

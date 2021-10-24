@@ -36,9 +36,10 @@ body::-webkit-scrollbar {
 }
 
 html {
-    background-image: url('../public/background-2.png');
-    background-position: 0% 90%;
-    background-size: 100vw;
+    background-image: url('../public/background-long.png');
+    background-size: 200vw 400vh;
+    background-position-x: center;
+    background-position-y: bottom 200vh;
 }
 
 a {
