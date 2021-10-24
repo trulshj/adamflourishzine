@@ -5,8 +5,8 @@ import Menu from './menu';
 import Footer from './footer';
 import Image from 'next/image';
 
-import leftBush from '../public/bush-left.png';
-import rightBush from '../public/bush-right.png';
+import leftBush from '@/public/bush-left.png';
+import rightBush from '@/public/bush-right.png';
 import { useMediaPredicate } from 'react-media-hook';
 
 export default function Layout({ children, shortTitle }) {

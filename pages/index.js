@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import utilStyles from '../styles/utils.module.css';
-import layoutStyles from '../components/layout.module.css';
+import utilStyles from '@/styles/utils.module.css';
+import layoutStyles from '@/components/layout.module.css';
 
-import Date from '../components/date';
-import Layout from '../components/layout';
+import Date from '@/components/date';
+import Layout from '@/components/layout';
 
-import { getSortedPostData } from '../lib/posts';
+import { getSortedPostData } from '@/lib/posts';
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostData();

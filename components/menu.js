@@ -5,8 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './menu.module.css';
 
-import logo from '../public/logo.png';
-import rose from '../public/rose.png';
+import logo from '@/public/logo.png';
+import rose from '@/public/rose.png';
 
 let buttons = [
     { id: '1', label: 'Home', link: '' },
