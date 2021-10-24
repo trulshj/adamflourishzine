@@ -10,17 +10,17 @@ import rightbush from '@/public/bush-right.png';
 import { useMediaPredicate } from 'react-media-hook';
 
 export default function Layout({ children }) {
+    let bushSize = '0';
     let M = useMediaPredicate('(max-width: 1000px)');
     let S = useMediaPredicate('(max-width: 800px)');
     let XS = useMediaPredicate('(max-width: 600px)');
 
-    let bushSize;
     if (XS) {
-        bushSize = '400';
+        bushSize = '200';
     } else if (S) {
         bushSize = '300';
     } else if (M) {
-        bushSize = '200';
+        bushSize = '400';
     } else {
         bushSize = '500';
     }
