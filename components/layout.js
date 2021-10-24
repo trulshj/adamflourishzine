@@ -10,21 +10,6 @@ import rightbush from '@/public/bush-right.png';
 import { useMediaPredicate } from 'react-media-hook';
 
 export default function Layout({ children }) {
-    let bushSize = '0';
-    let M = useMediaPredicate('(max-width: 1000px)');
-    let S = useMediaPredicate('(max-width: 800px)');
-    let XS = useMediaPredicate('(max-width: 600px)');
-
-    if (XS) {
-        bushSize = '200';
-    } else if (S) {
-        bushSize = '300';
-    } else if (M) {
-        bushSize = '400';
-    } else {
-        bushSize = '500';
-    }
-
     return (
         <div className={styles.container}>
             <Head>
@@ -57,10 +42,10 @@ export default function Layout({ children }) {
             </main>
             <div className={styles.bushes}>
                 <div className={styles.leftBush}>
-                    <Image src={leftbush} width={bushSize} height={bushSize} />
+                    <Image src={leftbush} />
                 </div>
                 <div className={styles.rightBush}>
-                    <Image src={rightbush} width={bushSize} height={bushSize} />
+                    <Image src={rightbush} />
                 </div>
             </div>
         </div>

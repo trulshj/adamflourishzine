@@ -147,18 +147,23 @@
     letter-spacing: 8px;
 }
 
-.leftBush {
+
+.leftBush, .rightBush {
     position: fixed;
     bottom: -10px;
-    left: 0px;
     z-index: 9;
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+}
+
+
+.leftBush {
+    left: 0px;
 }
 
 .rightBush {
-    position: fixed;
-    bottom: -10px;
     right: 0px;
-    z-index: 9;
 }
 
 /* Phone Styles */
