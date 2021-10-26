@@ -3,7 +3,7 @@ import utilStyles from '@/styles/utils.module.css';
 import layoutStyles from '@/components/layout.module.css';
 
 import Date from '@/components/date';
-import Layout from '@/components/layout';
+import LayoutMobile from '@/components/layout';
 
 import { getSortedPostData } from '@/lib/posts';
 

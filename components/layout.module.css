@@ -147,16 +147,15 @@
     letter-spacing: 8px;
 }
 
-
-.leftBush, .rightBush {
+.leftBush,
+.rightBush {
     position: fixed;
     bottom: -10px;
     z-index: 9;
-    width: 50vw;
-    height: 50vw;
+    width: 30vw;
+    height: 30vw;
     display: flex;
 }
-
 
 .leftBush {
     left: 0px;
