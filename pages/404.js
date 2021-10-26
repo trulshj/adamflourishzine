@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 
 export default function Custom404() {
     return (
-        <Layout title="404!">
+        <LayoutMobile title="404!">
             <Head>
                 <title>404!</title>
             </Head>
@@ -15,6 +15,6 @@ export default function Custom404() {
             <Link href="/">
                 <a>Click here to go back to the main page</a>
             </Link> 
-        </Layout>
+        </LayoutMobile>
     );
 }

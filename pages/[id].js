@@ -5,14 +5,14 @@ import { getAllPostIds, getPostData } from '../lib/posts'
 
 export default function Post({ postData }) {
   return (
-    <Layout shortTitle={postData.shortTitle}>
+    <LayoutMobile shortTitle={postData.shortTitle}>
       <Head>
         <title>{postData.shortTitle}</title>
       </Head>
       <article>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
-    </Layout>
+    </LayoutMobile>
   )
 }
 

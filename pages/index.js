@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
                     <div>Flourish</div>
                     <div>tomorrow is a new day</div>
                 </div>
-                <Layout shortTitle='FLOURISH: An Adam Anthology'>
+                <LayoutMobile shortTitle='FLOURISH: An Adam Anthology'>
                     <p>
                         Welcome to the home page of Flourish, an Adam Anthology.
                         Have a look around! If you have any questions, feel free
@@ -90,7 +90,7 @@ export default function Home({ allPostsData }) {
                                 )
                         )}
                     </ul>
-                </Layout>
+                </LayoutMobile>
             </div>
         </>
     );
