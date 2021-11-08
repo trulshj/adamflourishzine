@@ -156,6 +156,7 @@
     width: 30vw;
     height: 30vw;
     display: flex;
+    pointer-events: none;
 }
 
 
