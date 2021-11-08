@@ -7,7 +7,6 @@ import Image from 'next/image';
 
 import leftbush from '@/public/bush-left.png';
 import rightbush from '@/public/bush-right.png';
-import { useMediaPredicate } from 'react-media-hook';
 
 export default function Layout({ children }) {
     return (

@@ -152,8 +152,8 @@
     position: fixed;
     bottom: -10px;
     z-index: 9;
-    width: 50vw;
-    height: 50vw;
+    width: 30vw;
+    height: 30vw;
     display: flex;
 }
 
@@ -192,7 +192,7 @@
     .screenContent {
         font-size: 1.1rem;
         line-height: 1.3em;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         border-top: 0;
     }
 
@@ -224,5 +224,11 @@
 
     .screenContent article div :nth-child(1) {
         margin-top: 0;
+    }
+
+    .leftBush,
+    .rightBush {
+        width: 45vw;
+        height: 45vw;
     }
 }

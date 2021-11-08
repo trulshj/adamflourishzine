@@ -24,7 +24,7 @@
 @media screen and (max-width: 1000px) {
     .footer {
         margin-top: 20px;
-        position: relative;
+        position: absolute;
         text-align: right;
         bottom: 0px;
         right: 0px;
