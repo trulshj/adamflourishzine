@@ -68,7 +68,7 @@ export default function Home({ allPostsData }) {
                         </li>{' '}
                     </ul>
                     {allPostsData.some((x) => x.showInList === 'true') ? (
-                        <h1>recent posts:</h1>
+                        <h1>recently updated:</h1>
                     ) : (
                         ''
                     )}
