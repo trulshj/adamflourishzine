@@ -4,7 +4,7 @@ date: '2021-10-18'
 showInList: 'true'
 ---
 
-### Contributor Guidelines
+# Contributor Guidelines
 
 ##### Expectations for Final Piece(s)
 
